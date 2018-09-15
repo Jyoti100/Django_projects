@@ -45,5 +45,5 @@ Hi All,
     ALLOWED_HOST = ['122.12.12.12']
     Run using below command 
     python manage.py runserver 0.0.0.0:8000
-    Open other device brower and provide URL as : "122.12.12.12:8000/(you url)"
+    Open other device brower and provide URL as : "122.12.12.12:8000/(your url)"
     

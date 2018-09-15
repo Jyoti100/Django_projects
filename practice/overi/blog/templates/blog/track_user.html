@@ -1,0 +1,19 @@
+{% extends 'blog/base.html' %}
+
+{%  block title %}
+    Tracking user -- {{ block.super }}
+{% endblock %}
+
+{% block content %}
+    <div class="content">
+        <div class="section-inner clearfix">
+            {% if not request.COOKIES.visits %}
+                <p>This is your first time visit to the site. From now on i will track you</p>
+            {% else %}
+            <p>This is your {{ request.COOKIES.visits|add:'1' }} visit</p>
+            {% endif %}
+
+            <a href="{% url 'stop_tracking' %} ">Stop Tracking</a>
+        </div>
+    </div>
+{% endblock %}

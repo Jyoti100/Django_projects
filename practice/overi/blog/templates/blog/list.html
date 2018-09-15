@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post</title>
+</head>
+<body>
+ <!--   <h1>{{ post_list }}</h1>
+    <p>Published by: <span>Author: {{ author|title }}</span></p>
+    <p>{{ post.content }}</p>
+    <p>Related Posts</p>
+    <ul>
+        {% for item in item_lists %}
+            <li>{{ item }</li>
+        {% endfor %}
+    </ul>
+
+    {% if comments %}
+        <p>This has some comments</p>
+    {% else %}
+        <p>This has no comments </p>
+    {% endif %} -->
+
+<!--{% for i in lis %}
+        <h1>{{ forloop.revcounter0 }} iteration - {{ i }}</h1>
+{% endfor %} -->
+    {% include template_name %}
+
+    {% if comment %}
+        <p> {{ comment }}</p>
+    {% endif %}
+    {% if now %}
+        <p>Curent date time is : {{ now }}</p>
+    {% else %}
+        <p>no variables are availble</p>
+    {% endif %}
+<h1> base directory is : {{ base_dir }}</h1>
+</body>
+</html>

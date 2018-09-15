@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page</title>
+</head>
+<body>
+<h1> Articles # Usage of Slug</h1>
+<ul>
+{% for a in articles %}
+    <li><a href="{{ a.get_absolute_url }}">{{ a.title }}</a></li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

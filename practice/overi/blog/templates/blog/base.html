@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title> {% block title %}Post Lists{% endblock %}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="{% static 'blog/css/reset.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+    <script src="{% static 'blog/js/jquery.js' %}"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#"><p class="navbar-brand">The Great Django Blog </p></a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a href="#">Career</a>
+            <a href="{% url 'feedback' %}">Feedback</a>
+            <div class="nav navbar-nav navbar-right"></div>
+            <a href="{% url 'logout' %}" >
+                <span class="glyphicon glyphicon-log-out"></span> Logout
+            </a></div>
+    </div>
+</nav>
+    {% block content %}
+    {% endblock %}
+
+    {% block footer %}
+    <div class="footer">
+        <div class="section-inner clearfix">
+            <hr>
+            <p>&copy; The Django Footer</p>
+        </div>
+    </div>
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,14 @@
+{% extends 'empapp/base.html' %}
+{% block title %} Delete employee {% endblock %}
+{% block navbartitle %} Delete Employee {% endblock %}
+
+{% block content %}
+    <h1>Employee Delete</h1>
+    <form method="post">
+        {% csrf_token %}
+        Are you sure you want to delete "{{ employee.empname }}" ?
+        <input type="submit" value="Submit" class="btn btn-primary"/>
+        <input type="button" class="btn btn-primary" value="Cancel" onclick="location.href = '{% url 'show' %}';"/>
+
+    </form>
+{% endblock %}

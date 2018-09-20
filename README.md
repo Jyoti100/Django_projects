@@ -1,7 +1,7 @@
 # Django_projects
 
 # Overview
-  The uploded projects are helpful to the begginers of Django framework.
+  The uploded projects are helpful to the beginners of Django framework.
   
  # Requirements
     1. Virtual Environments

@@ -1,8 +1,7 @@
 # Django_projects
 
 # Overview
-Hi All,
-  I have started learning Django framework. The uploaded projects are done during my django practice. It would be helpful if you provide me inputs :)
+  The uploded projects are helpful to the begginers of Django framework.
   
  # Requirements
     1. Virtual Environments

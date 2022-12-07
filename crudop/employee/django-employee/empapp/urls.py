@@ -8,7 +8,7 @@ urlpatterns = [
 
     # Class base view
      url(r'^detail/(?P<pk>\d+)/', views1.EmpDetailView.as_view(), name='detail'),
-     url(r'^emp/', views1.EmployeeAddView.as_view() , name='emp'),
+     url(r'^emp/', views1.EmployeeAddView.as_view(), name='emp'),
      url(r'^show/', views1.ShowView.as_view(), name='show'),
      url(r'^update/(?P<pk>\d+)/$', views1.EmpUpdateView.as_view(), name='update'),
      url(r'^delete/(?P<pk>\d+)/$', views1.EmpDeleteView.as_view(), name='delete'),

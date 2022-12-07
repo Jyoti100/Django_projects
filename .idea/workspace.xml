@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e06a0242-508d-4f15-8824-08d0917ccdf9" name="Default" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="e06a0242-508d-4f15-8824-08d0917ccdf9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/static/empapp/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/static/empapp/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/static/empapp/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/static/empapp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/base1.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/base1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/employee_confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/employee_confirm_delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/employee_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/employee_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/form_template.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/form_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/logout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/show.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/templates/empapp/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/templates/empapp/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crudop/employee/empapp/views1.py" beforeDir="false" afterPath="$PROJECT_DIR$/crudop/employee/django-employee/empapp/views1.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -107,6 +130,7 @@
     <option name="width" value="1410" />
     <option name="height" value="645" />
   </component>
+  <component name="ProjectId" id="2IaSglMVrQYSa14PHrXFYYVl1iD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -145,17 +169,19 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="terminal&#9;ACTION&#9;ActivateTerminalToolWindow&#10;termi&#9;null&#9;null&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;)&#9;null&#9;null" />
-    <property name="last_opened_file_path" value="E:/Git/git-bash.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Mallinath akkalkot\PycharmProjects\Practice\crudop\employee\empapp\static\empapp" />
-      <recent name="C:\Users\Mallinath akkalkot\PycharmProjects\Practice\crudop\employee\employee" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mallinath akkalkot\PycharmProjects\Practice\practice\overi\blog\templates\blog" />
       <recent name="C:\Users\Mallinath akkalkot\PycharmProjects\Practice\crudop\employee\empapp" />
@@ -163,19 +189,13 @@
       <recent name="C:\Users\Mallinath akkalkot\PycharmProjects\Practice\crudop\employee\empapp\static\css" />
       <recent name="C:\Users\Mallinath akkalkot\PycharmProjects\Practice\crudop\employee\templates\registration" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/crudop/employee/django-employee" />
+      <recent name="C:\Users\Mallinath akkalkot\PycharmProjects\Practice\crudop\employee\empapp\static\empapp" />
+      <recent name="C:\Users\Mallinath akkalkot\PycharmProjects\Practice\crudop\employee\employee" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -211,8 +231,16 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49934897" weight="0.32965517" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -227,7 +255,7 @@
           <line>1</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/crudop/employee/empapp/views.py</url>
+          <url>file://$PROJECT_DIR$/crudop/employee/django-employee/empapp/views.py</url>
           <line>59</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -242,7 +270,6 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">

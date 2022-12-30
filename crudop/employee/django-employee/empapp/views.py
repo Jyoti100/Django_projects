@@ -31,7 +31,7 @@ def emp(request):
             except:
                 pass
         else:
-            messages.add_message(request, messages.ERROR, 'Error please check the details ')
+            messages.add_message(request, messages.ERROR, 'Error please check the details and  test')
             return redirect('emp')
     else:
         form = EmployeeForm()

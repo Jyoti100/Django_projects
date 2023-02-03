@@ -1,4 +1,0 @@
-include LICENSE
-include README.rst
-recursive-include empapp/static *.css
-recursive-include empapp/templates *.html

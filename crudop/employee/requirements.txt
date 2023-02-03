@@ -1,2 +1,2 @@
-amqp
-django
+django==3.2.16
+gunicorn
